@@ -1,6 +1,6 @@
 {
   "name": "vue-mqtt-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "nik-zp@mail.ru <Nikolai Paschenko>",
   "private": true,

@@ -16,11 +16,11 @@ export default {
     }
   },
   mqtt: {
-    publish1 (data) {
-      console.log(String.fromCharCode.apply(null, data))
+    'VueMqtt/publish1' (data, topic) {
+      console.log(topic + ': ' + String.fromCharCode.apply(null, data))
     },
-    publish2 (data) {
-      console.log(String.fromCharCode.apply(null, data))
+    'VueMqtt/publish2' (data, topic) {
+      console.log(topic + ': ' + String.fromCharCode.apply(null, data))
     }
   }
 }
