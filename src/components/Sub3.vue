@@ -12,7 +12,10 @@ export default {
   },
   mqtt: {
     /** 'VueMqtt/#' or 'VueMqtt/+' or '+/+' or '#' */
-    'VueMqtt/#' (data) {
+    'VueMqtt/+' (data, topic) {
+      if (topic.split('/').pop() === 'publish1') {
+        console.log('topic:', 'VueMqtt/publish1')
+      }
       this.buff = this.buff + data + '<br>'
     }
   }
