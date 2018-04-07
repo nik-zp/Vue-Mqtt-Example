@@ -34,7 +34,13 @@ export default {
   margin-top: 60px;
 }
 .sub {
+  width: 31%;
+  float: left;
   border: 1px solid #ccc;
-  margin: 20px;
+  margin: 20px 1%;
+  padding: 20px 0;
+}
+button {
+  padding: 10px 20px;
 }
 </style>

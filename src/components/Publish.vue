@@ -1,7 +1,7 @@
 <template>
   <div class="publish">
-    <button @click="publish1">Publish1</button>
-    <button @click="publish2">Publish2</button>
+    <button @click="publish1">Publish1 (Sub1 + Sub3)</button>
+    <button @click="publish2">Publish2 (Sub2 + Sub3)</button>
   </div>
 </template>
 
