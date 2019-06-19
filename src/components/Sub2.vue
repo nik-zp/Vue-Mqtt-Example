@@ -7,7 +7,7 @@
 export default {
   data () {
     return {
-      buff: 'Sub1:<br>'
+      buff: 'Sub2:<br>'
     }
   },
   mqtt: {
